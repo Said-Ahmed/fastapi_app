@@ -2,7 +2,7 @@ from typing import AsyncGenerator
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.ext.declarative import declarative_base, DeclarativeMeta
 
-from config import DB_USER, DB_PASSWORD, DB_PORT, DB_NAME, DB_HOST
+from .config import DB_USER, DB_PASSWORD, DB_PORT, DB_NAME, DB_HOST
 
 DATABASE_URL = f"postgresql+asyncpg://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
