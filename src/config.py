@@ -1,7 +1,5 @@
 
 import os
-
-
 DB_HOST = "dpg-cigl2jtgkuvojj9t1p90-a"
 DB_NAME = "board_jdrb"
 DB_PORT = 5432
