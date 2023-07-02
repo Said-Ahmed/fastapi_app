@@ -1,12 +1,10 @@
 
 import os
 
-from dotenv.main import load_dotenv
 
-load_dotenv()
+DB_HOST = "dpg-cigl2jtgkuvojj9t1p90-a"
+DB_NAME = "board_jdrb"
+DB_PORT = 5432
+DB_PASSWORD = "g0xRoJh6SAFgMwtSRS4yMqejEcNRnyHX"
+DB_USER = "postgres_test"
 
-DB_HOST = os.environ.get("DB_HOST")
-DB_NAME = os.environ.get("DB_NAME")
-DB_PORT = os.environ.get("DB_PORT")
-DB_PASSWORD = os.environ.get("DB_PASSWORD")
-DB_USER = os.environ.get("DB_USER")
