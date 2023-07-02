@@ -5,5 +5,5 @@ from operations.routers import router as router_operations
 
 app = FastAPI()
 
-create_db_and_tables()
+
 app.include_router(router_operations)
